@@ -23,5 +23,3 @@ Iportant terminal commands:
 * `..` - parent directory
 
 > Note: Be VERY careful deleting files/directories. These cannot be recovered
-
-
