@@ -1,9 +1,7 @@
 # Terminal cheatsheet to use
 
-```
-Important terminal commands:
-```
 
+## Important terminal commands:
 
 * `mkdir` - creates new folder
 * `touch` - creates new file
@@ -24,9 +22,9 @@ Important terminal commands:
 
 > Note: Be VERY careful deleting files/directories. These cannot be recovered
 
-```
-Important Git commands:
-```
+
+## Important Git commands:
+
 
 * `git init` - initialise Git in the current directory
 * `git status` - lets us know which files have been modified (on stage)
@@ -41,3 +39,13 @@ Give the repository a name and description if needed, and make it public.
 Click `Create repository` and you will be given some code to copy into the terminal to create the repository.
 
 Once the repository has been added to your Github, use `git push` after committing any edits to push the edits up to Github
+
+
+## .gitignore
+
+
+If you have untracked files or folders in your repository that you 
+want to be ignored (so they don't show up as untracked in `git status`), create a .gitignore file in your repository, 
+with the command `touch .gitignore`. Open this file, and write in it the names of the files in your repository you would like to be ignored.
+Then add this file to your repository with the command `git add .gitignore`.
+Now, when you check `git status`, the files listed in the `.gitignore` file won't be counted as untracked.
