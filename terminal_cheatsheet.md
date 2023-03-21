@@ -35,6 +35,9 @@ Important Git commands:
 * `git log` - gives a history of the commits made
 * `git revert` - rolls back a specific commit (add ID of commit after command - found in log)
 
+
 On Github, to add the repository go to the `+` icon in the top-right corner, and select `New repository`.
 Give the repository a name and description if needed, and make it public. 
 Click `Create repository` and you will be given some code to copy into the terminal to create the repository.
+
+Once the repository has been added to your Github, use `git push` after committing any edits to push the edits up to Github
