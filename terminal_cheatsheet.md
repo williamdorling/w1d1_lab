@@ -12,6 +12,7 @@
 * `rm` - delete (remove) file
 * `rm - r` - delete directory
 * `cd` - change directory
+* `cd -` - change directory back to previous
 * `ls` - list folders and files
 * `ls -l` - list folders and files, along with permissions and other info
 * `ls -a` - list of folders and files, including hidden files
